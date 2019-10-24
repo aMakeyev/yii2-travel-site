@@ -1,0 +1,79 @@
+/* =============================site english============================== */
+.carousel {
+	padding:0;
+}
+.top-caption {
+	width:60%;
+	padding:30px;
+	text-align:center;
+}
+.top-caption h1{
+	font-size:70px;
+	font-weight:bold;
+}
+.bottom-caption {
+	font-size:60px;
+	right: 50px;
+}
+.order-list{
+	padding-top: 4rem;
+	font-size: 27px;
+}
+.link-list {
+	list-style-type:none;
+	font-size:27px;
+}
+footer h5{
+	font-weight:700;
+}
+footer p{
+	font-size:18px;
+	font-weight:300;
+}
+.footer-list li {
+	padding:5px 10px;
+}
+@media (max-width : 1200px) {
+	.bottom-caption {
+		font-size:40px;
+	}
+}
+@media (max-width : 992px) {
+	.top-caption h1 {
+		font-size:50px;
+	}
+	.bottom-caption {
+		font-size:29px;
+	}
+}
+@media (max-width : 750px) {
+	.order-list{
+		font-size:20px;
+	}
+}
+@media (max-width : 585px) {
+	.top-caption h1 {
+		font-size:35px;
+	}
+	.bottom-caption {
+		font-size:20px;
+	}
+	.order-list{
+		font-size:14px;
+	}
+}
+@media (max-width : 478px) {
+	.top-caption h1 {
+		font-size:22px;
+		padding: 20px;
+	}
+	.top-caption{
+		width:50%;
+		padding:10px;
+	}
+	.bottom-caption {
+		font-size:14px;
+		right: 20px;
+	}
+
+}

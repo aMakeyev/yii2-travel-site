@@ -1,0 +1,75 @@
+/*img{
+	width:100%;
+	height:auto;
+}*/
+
+/* =============================for bootstrap3 in admin============================== */
+
+.mt-5{
+	margin-top: 80px;
+}
+.float-left{
+	float:left;
+}
+.nav > li.menu-right{!important;
+	position: absolute;
+	right: 43px;
+}
+
+
+/* =============================header============================== */
+.logo{
+
+}
+.lang {
+	list-style:none;
+	font-size:20px;
+	text-transform:uppercase;
+
+}
+.lang li {
+
+}
+.lang li > a{
+	color:#9a9a9a;
+	padding:10px 0px;
+	margin-top:5px;
+	text-align:center;
+	display:block;
+
+}
+.lang li > a:hover{
+	color:#333333;
+	text-decoration:none;
+}
+.lang img{
+	position: relative;
+	top: -3px;
+}
+.lang .active>a{
+	background-color:#dddddd;
+	border:#3f3f3f 1px solid;
+	color:#333333;
+}
+
+/* =============================footer============================== */
+
+footer{
+	background-color:#cccccc;
+	color:#454545;
+	padding:15px;
+}
+
+
+/* Large Devices, Desktops */
+@media (max-width : 992px) {
+
+}
+
+/* Medium Devices, Tablets */
+@media (max-width : 768px) {
+}
+/*  Small Devices, Phones */
+@media (max-width : 576px) {
+
+}

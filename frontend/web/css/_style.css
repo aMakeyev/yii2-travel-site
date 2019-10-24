@@ -1,0 +1,271 @@
+
+body{
+	background-color:#fff;
+	font-family: 'Arial', sans-serif;
+	font-size:16px;
+	color:#000;
+	min-width:320px;
+}
+
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+
+h1{
+	/*font-weight:700;
+	font-size:30px;*/
+	color:#fff;
+}
+
+/* =============================header============================== */
+header{
+	color:#767676;
+}
+.slogan{
+	font-style:italic;
+	font-size:20px;
+	color:#303030;
+}
+.slogan > span{
+	/*margin-left:-10px;*/
+}
+.phone{
+	font-size:50px;
+	/*font-stretch: ultra-condensed;*/
+	transform: scaleY(1.2);
+}
+.lang-menu {
+	padding-left:6rem;
+	/*right:0;*/
+}
+.lang{
+	font-size:20px;
+	text-transform:uppercase;
+	color:#9a9a9a;
+	text-decoration:none!important;
+	display:block;
+}
+.lang:hover{
+	color:#333333;
+}
+.lang img{
+	position: relative;
+	top: -3px;
+}
+.current-lang{
+	background-color:#dddddd;
+	border:#3f3f3f 1px solid;
+	color:#333333;
+}
+.main-nav{
+	text-transform:uppercase;
+	font-size:24px;
+}
+.nav-item{
+	padding: 5px 10px;
+	margin-right:1px;
+	margin-bottom:1px;
+}
+.nav-item.active{
+	border:none;
+	background-color:#dddddd;
+	color:#767676;
+}
+.main-nav .nav-item:hover{
+	background-color:#dddddd;
+
+}
+
+/* =============================sliders============================== */
+
+.carousel{
+	padding:0 2px 0 0;
+	/*position:relative;*/
+}
+.top-caption,
+.bottom-caption{
+	position:absolute;
+	color:#fff;
+	z-index:20;
+}
+.top-caption {
+	background-color: rgba(0,0,0,.5);
+	left:0;
+	top:0;
+	width:50%;
+	padding:8px 10px 8px 30px;
+}
+.bottom-caption{
+	background-color:#00aa01;
+	text-align:center;
+	/*font-stretch: ultra-condensed;*/
+	font-size:22px;
+	font-weight:200;
+	width:25%;
+	right: 35px;
+	bottom: 0;
+	padding:5px 10px 0 10px;
+	/*box-shadow: inset 0 0 6px;*/
+}
+.carousel-inner{
+	position:relative;
+}
+.order-list{
+	list-style: none;
+	padding-left: 4rem;
+	padding-top:2rem;
+	font-size:23px;
+	transform: scaleY(1.1);
+	color:#333333;
+}
+.order-list > li:before {
+	display: inline-block;
+	content: "-";
+	width: 1em;
+	margin-left: -1em;
+}
+	/*list-style-image: url('img/dash.jpg');*/
+.link-list{
+	list-style-type:square;
+	padding: 2rem 0 5rem 4rem;
+	font-size:23px;
+	transform: scaleY(1.1);
+	text-decoration:underline;
+	color:#2e67fc;
+}
+
+/* =============================footer============================== */
+
+footer{
+	background-color:#cccccc;
+	border-top:#808080 1px solid;
+	color:#454545;
+}
+
+.footer-list{
+	list-style-type:square;
+}
+.footer-list a{
+	color:#444444;
+	font-size:25px;
+	transform: scaleY(1.1);
+	font-weight:300;
+}
+.contact{
+	padding-left: 5rem;
+}
+.mail{
+	font-size:33px;
+	text-decoration:underline;
+}
+/*  Extra Large Devices, Wide Screens */
+@media (max-width : 1420px) {
+	.slogan{
+		font-size:17px;
+	}
+	.phone {
+		font-size:40px;
+	}
+	h1{
+		font-size:28px;
+	}
+	.lang-menu {
+		position:absolute;
+		right:0;
+		top:20px;
+	}
+}
+@media (max-width : 1200px) {
+	.phone {
+		font-size:30px;
+	}
+	.slogan{
+		font-size:14px;
+	}
+	.footer-list a{
+		font-size:18px;
+	}
+	.office{
+		font-size:13px;
+	}
+	footer h5{
+		font-size:14px;
+	}
+	.mail{
+		font-size:20px;
+	}
+	.bottom-caption{
+		font-size:16px;
+	}
+	.order-list, .link-list {
+		font-size:18px;
+	}
+}
+
+/* Large Devices, Desktops */
+@media (max-width : 992px) {
+	.phone {
+		font-size:25px;
+	}
+	.slogan{
+		font-size:11px;
+	}
+	h1{
+		font-size:22px;
+	}
+	.footer-list{
+		font-size:13px;
+	}
+}
+@media (max-width : 925px) {
+	.footer-list a{
+		font-size:13px;
+	}
+	.phone{
+		font-size:20px;
+	}
+	.mail{
+		font-size:16px;
+	}
+}
+/* Medium Devices, Tablets */
+@media (max-width : 768px) {
+	.contact{
+		text-align:center;
+		padding:0;
+	}
+	.footer-list a{
+		line-height:2;
+	}
+	.slogan{
+		font-size:9px;
+	}
+	header .phone{
+		font-size:18px;
+		text-align:left;
+	}
+}
+/*  Small Devices, Phones */
+@media (max-width : 576px) {
+	.footer-list{
+		display:none;
+	}
+	.bottom-caption{
+		display:none;
+	}
+	header .phone{
+		font-size:14px;
+	}
+	.slogan{
+		display:none;
+	}
+	.lang-menu{
+		/*position:relative;*/
+	}
+}
+@media (max-width : 576px) {
+
+}

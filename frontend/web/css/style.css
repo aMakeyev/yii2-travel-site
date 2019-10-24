@@ -1,0 +1,417 @@
+
+body{
+	background-color:#fff;
+	font-family: 'Arial', sans-serif;
+	font-size:16px;
+	color:#000;
+	min-width:320px;
+}
+
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+
+h1{
+	/*font-weight:700;
+	font-size:30px;*/
+	color:#fff;
+}
+
+/* =============================header============================== */
+header{
+	color:#767676;
+}
+.slogan{
+	font-style:italic;
+	font-size:20px;
+	color:#303030;
+}
+.slogan > span{
+	/*margin-left:-10px;*/
+}
+.phone{
+	font-size:50px;
+	/*font-stretch: ultra-condensed;*/
+	/*transform: scaleY(1.2);*/
+}
+.lang-menu {
+	padding-left:6rem;
+	/*right:0;*/
+}
+.lang{
+	font-size:20px;
+	text-transform:uppercase;
+	color:#9a9a9a;
+	text-decoration:none!important;
+	display:block;
+}
+.lang:hover{
+	color:#333333;
+}
+.lang img{
+	position: relative;
+	top: -3px;
+}
+.current-lang{
+	background-color:#dddddd;
+	border:#3f3f3f 1px solid;
+	color:#333333;
+}
+
+.main-nav{
+	text-transform:uppercase;
+	font-size:24px;
+}
+.nav-item{
+	padding: 5px 10px;
+	margin-right:1px;
+	margin-bottom:1px;
+}
+.nav-item.active{
+	border:none;
+	background-color:#dddddd;
+	color:#767676;
+}
+.main-nav .nav-item:hover{
+	background-color:#dddddd;
+
+}
+
+/* =============================sliders============================== */
+
+.carousel{
+	padding:0 2px 0 0;
+	/*position:relative;*/
+}
+.top-caption,
+.bottom-caption{
+	position:absolute;
+	color:#fff;
+	z-index:20;
+}
+.top-caption {
+	background-color: rgba(0,0,0,.5);
+	left:0;
+	top:0;
+	width:50%;
+	padding:8px 10px 8px 30px;
+}
+.bottom-caption{
+	display:block;
+	background-color:#00aa01;
+	text-align:center;
+	/*font-stretch: ultra-condensed;*/
+	font-size:22px;
+	font-weight:200;
+	text-decoration:none !important;
+	width:25%;
+	right: 35px;
+	bottom: 0;
+	padding: 10px;
+	/*box-shadow: inset 0 0 6px;*/
+}
+.bottom-caption:hover{
+	color:#ffffff;
+	background-color:#019500;
+}
+.carousel-inner{
+	position:relative;
+}
+.order-list {
+	padding: 3rem 0 3rem 6rem;
+	font-size:23px;
+	/*transform: scaleY(1.1);*/
+	color:#333333;
+}
+.order-list ul{
+	list-style: none;
+}
+.order-list ul > li:before {
+	display: inline-block;
+	content: "-";
+	width: 1em;
+	margin-left: -1em;
+}
+	/*list-style-image: url('img/dash.jpg');*/
+.order-list a {!important;
+	text-decoration:underline;
+	color:#2e67fc;
+}
+.content{
+	padding:5rem 10rem;
+}
+
+/* =============================footer============================== */
+
+footer{
+	background-color:#cccccc;
+	border-top:#808080 1px solid;
+	color:#454545;
+}
+
+.footer-list{
+	list-style:square inside;
+}
+.footer-list a{
+	color:#444444;
+	font-size:25px;
+	/*transform: scaleY(1.1);*/
+	font-weight:300;
+}
+.footer-list li{
+	padding: 5px 15px;
+	margin-bottom:1px;
+}
+
+.footer-list > li.active{
+	background-color:#999999;
+}
+.footer-list >li:hover{
+	background-color:#999999;
+}
+.footer-list >li a:hover{
+	text-decoration:none;
+}
+
+.contact{
+	padding-left: 5rem;
+}
+.mail{
+	font-size:33px;
+	text-decoration:underline;
+}
+
+/* =============================single-page============================== */
+
+.header-color{
+	background-color:#cccccc;
+}
+.bgrd-color h1 {
+	font-size: 38px;
+	font-weight: 600;
+	padding: 18px 0 0 18px;
+}
+.header-overlow {
+	background-color:rgba(0, 0, 0, .5);
+	/*background:url("/img/fon1.jpg") repeat;*/
+	position:absolute;
+	width: 100%;
+	height: 100%;
+}
+.img-block{
+	position:relative;
+	padding:0;
+}
+.bgrd-color{
+	background:#666666;
+}
+.side-color{
+	background-color:#eeeeee;
+}
+.page-content{
+	background-color:#ffffff;
+	padding:5rem 10rem;
+}
+.doc{
+	text-align:right;
+	padding-bottom:40px;
+}
+.doc-name, .doc-link{
+	font-size:24px;
+}
+.doc-price{
+	font-size:32px;
+	font-weight:700;
+}
+.doc-link{
+	text-decoration:underline;
+}
+
+
+/*  Extra Large Devices, Wide Screens */
+@media (max-width : 1420px) {
+/*@media (max-width : 1355px) {*/
+	.slogan{
+		font-size:17px;
+	}
+	.phone {
+		font-size:40px;
+	}
+	.bgrd-color h1,
+	h1{
+		font-size:28px;
+	}
+	.lang-menu {
+		position:absolute;
+		right:0;
+		top:20px;
+	}
+}
+@media (max-width : 1340px) {
+	.footer-list a{
+		font-size:20px;
+	}
+}
+@media (max-width : 1200px) {
+/*@media (max-width : 1150px) {*/
+	.phone {
+		font-size:30px;
+	}
+	.slogan{
+		font-size:14px;
+	}
+	.footer-list a{
+		font-size:14px;
+	}
+	.office{
+		font-size:13px;
+	}
+	footer h5{
+		font-size:14px;
+	}
+	.mail{
+		font-size:20px;
+	}
+	.bottom-caption{
+		font-size:18px;
+	}
+	.order-list ul {
+		font-size:18px;
+	}
+	.page-content{
+		padding:3rem 5rem;
+	}
+	.doc-name, .doc-link{
+		font-size:20px;
+	}
+	.doc-price{
+		font-size:25px;
+	}
+}
+
+/* Large Devices, Desktops */
+@media (max-width : 992px) {
+	.phone {
+		font-size:25px;
+	}
+	.slogan{
+		font-size:11px;
+	}
+	.bgrd-color h1,
+	h1{
+		font-size:22px;
+	}
+	.contact{
+		text-align:center;
+		padding:0;
+	}
+	.page-content{
+		padding:40px;
+	}
+
+	.doc-name, .doc-link{
+		font-size:18px;
+	}
+	.doc-price{
+		font-size:20px;
+	}
+}
+@media (max-width : 925px) {
+
+	.phone{
+		font-size:20px;
+	}
+	.mail{
+		font-size:16px;
+	}
+	.bgrd-color h1{
+		font-size:18px;
+		font-weight:400;
+		padding: 5px 0;
+	}
+	.bottom-caption {
+		font-size:14px;
+	}
+}
+/* Medium Devices, Tablets */
+@media (max-width : 768px) {
+	.carousel {
+		padding:0;
+	}
+	.footer-list a{
+		line-height:2;
+	}
+	.slogan{
+		font-size:9px;
+	}
+	header .phone{
+		font-size:18px;
+		text-align:left;
+	}
+	.page-content{
+		padding:40px 30px;
+	}
+	.doc-name, .doc-link{
+		font-size:16px;
+	}
+	.doc-price{
+		font-size:18px;
+	}
+	.tour-content{
+		font-size:14px;
+	}
+}
+/*  Small Devices, Phones */
+@media (max-width : 667px) {
+	.bgrd-color h1{
+		font-size:15px;
+		padding:5px 0 0 0;
+	}
+	.doc-name, .doc-link{
+		font-size:14px;
+	}
+	.doc-price{
+		font-size:16px;
+	}
+}
+@media (max-width : 576px) {
+	.footer-list{
+		display:none;
+	}
+	.bottom-caption{
+		font-size:12px;
+	}
+	header .phone{
+		font-size:14px;
+	}
+	.slogan{
+		display:none;
+	}
+	.bgrd-color h1{
+		font-size:10px;
+	}
+	.page-content{
+		padding:30px 15px;
+	}
+	.doc-name, .doc-link{
+		font-size:12px;
+	}
+	.doc-price{
+		font-size:14px;
+	}
+	.doc{
+		padding-bottom:20px;
+	}
+	.tour-content{
+		font-size:11px;
+	}
+}
+@media (max-width : 475px) {
+	.order-list a{
+		font-size:18px;
+	}
+
+}
